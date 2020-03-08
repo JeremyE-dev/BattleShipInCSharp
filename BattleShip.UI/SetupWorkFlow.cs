@@ -264,7 +264,7 @@ namespace BattleShip.UI
         {
             int numberOfShipsPlaced = 0;
 
-            while (numberOfShipsPlaced < 1) //CHANGE Back to 5
+            while (numberOfShipsPlaced < 5) 
             {
 
 
