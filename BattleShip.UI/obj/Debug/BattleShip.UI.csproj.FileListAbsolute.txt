@@ -13,3 +13,12 @@ C:\Users\Jeremy\source\repos\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.pd
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.UI\bin\Debug\BattleShip.BLL.dll
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.UI\bin\Debug\BattleShip.BLL.pdb
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CopyComplete
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\bin\Debug\BattleShip.UI.exe.config
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\bin\Debug\BattleShip.UI.exe
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\bin\Debug\BattleShip.UI.pdb
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\bin\Debug\BattleShip.BLL.dll
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\bin\Debug\BattleShip.BLL.pdb
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\obj\Debug\BattleShip.UI.csprojAssemblyReference.cache
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\obj\Debug\BattleShip.UI.csproj.CopyComplete
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\obj\Debug\BattleShip.UI.exe
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.UI\obj\Debug\BattleShip.UI.pdb

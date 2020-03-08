@@ -17,7 +17,7 @@ namespace BattleShip.BLL.GameLogic
         public Board()
         {
             ShotHistory = new Dictionary<Coordinate, ShotHistory>();
-            Ships = new Ship[5];
+            Ships = new Ship[1];//CHANGE BACK TO 5 AFTER TESTING!!!!!
             _currentShipIndex = 0;
         }
 
@@ -41,6 +41,13 @@ namespace BattleShip.BLL.GameLogic
                 response.ShotStatus = ShotStatus.Duplicate;
                 return response;
             }
+
+            //if the coord entered is on the board (is valid) and player has not tried that before
+            //then checkships for hit will take in both coord and a response new Fireshot reponse object
+            // will check all ships on the players board 
+            //// is the ship it is currently is sunk, it will skip it and move to the next one in the array of ships on the board
+            ///  it will check each ship on board 
+            /// 
 
             CheckShipsForHit(coordinate, response);
             CheckForVictory(response);

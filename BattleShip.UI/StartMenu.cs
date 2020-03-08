@@ -36,8 +36,7 @@ namespace BattleShip.UI
         //asks for names from user, stores both names in player object
         public void EnterNames ()
         {
-            
-            
+                    
             Console.WriteLine("There are two players in this game");
             
             Console.WriteLine("Player 1, please enter your name: ");
@@ -52,10 +51,6 @@ namespace BattleShip.UI
            Console.WriteLine("Welcome {0} and {1}, Let's Play BattleShip", Player1, Player2);
            Console.WriteLine();
            
-           //Player players = new Player(Player1, Player2);
-
-           
-
         }
 
      
@@ -65,8 +60,8 @@ namespace BattleShip.UI
         {
             Console.WriteLine("Each player will set their own 10 x 10 gameboard with 5 ships that take up a set amount of spaces on the board");
             Console.WriteLine();
-            Console.WriteLine("Each player has 1 of each: Carrier(5 spaces), BattleShip(4 spaces), Submarine(3 spaces), " +
-                "Cruiser( 3 spaces), Destroyer(2 spaces)");
+            Console.WriteLine("Each player has 1 of each: Destroyer(2 spaces), Cruiser(3 spaces), Submarine(3 spaces), " +
+                "BattleShip(4 spaces), Carrier(5 spaces)");
             Console.WriteLine();
             Console.WriteLine("Ships can be placed perpendicular (not diagonal), anywhere on the board and are not allowed to overlap");
             Console.WriteLine();
@@ -79,18 +74,16 @@ namespace BattleShip.UI
             Console.WriteLine("****{0} , you will now set your board****", name);
             Console.WriteLine("You will place a total of 5 ships");
             Console.WriteLine();
-
-           
-
         }
-
-      
 
         public void StartGame()
         {
             Welcome();
             EnterNames();
             Instructions();
+            Console.WriteLine("press any key to continue");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 }

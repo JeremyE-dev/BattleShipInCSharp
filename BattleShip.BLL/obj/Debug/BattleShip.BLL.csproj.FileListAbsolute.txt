@@ -8,3 +8,8 @@ C:\Users\Jeremy\source\repos\Battleship\BattleShip.BLL\bin\Debug\BattleShip.BLL.
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.BLL\obj\Debug\BattleShip.BLL.csprojAssemblyReference.cache
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.BLL\obj\Debug\BattleShip.BLL.dll
 C:\Users\Jeremy\source\repos\Battleship\BattleShip.BLL\obj\Debug\BattleShip.BLL.pdb
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.BLL\bin\Debug\BattleShip.BLL.dll
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.BLL\bin\Debug\BattleShip.BLL.pdb
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.BLL\obj\Debug\BattleShip.BLL.csprojAssemblyReference.cache
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.BLL\obj\Debug\BattleShip.BLL.dll
+C:\Users\Jeremy\source\repos\BattleShipInCSharp\BattleShip.BLL\obj\Debug\BattleShip.BLL.pdb

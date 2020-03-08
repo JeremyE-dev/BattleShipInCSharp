@@ -30,7 +30,7 @@ namespace BattleShip.UI
         //creates a Board instance for GameWorkFlow
         //with ships populated by the user
 
-        //Each player is prompted to place ships by giving coordinate and direction, // im guessing they will also indcate shiptype
+        //Each player is prompted to place ships by giving coordinate and direction, // i
         public SetupWorkFlow()
         {
             _row = 0;
@@ -48,8 +48,9 @@ namespace BattleShip.UI
 
             while (true)
             {
-                Console.Write("Please enter the type of ship you would like to place:\n D = Destroyer," +
-                "S = Submarine, Cr = Cruiser, B = Battleship, Ca = Carrier:  ");
+                Console.Write("Please enter the type of ship you would like to place:\n D = Destroyer (2 spaces)," +
+                "Cr = Cruiser (3 spaces), S = Submarine (3 spaces),  B = Battleship (4 spaces), Ca = Carrier (5 spa" +
+                "ces):  ");
 
 
                 string lower = Console.ReadLine().ToLower();
@@ -263,7 +264,7 @@ namespace BattleShip.UI
         {
             int numberOfShipsPlaced = 0;
 
-            while (numberOfShipsPlaced < 5) //CHANGE Back to 5
+            while (numberOfShipsPlaced < 1) //CHANGE Back to 5
             {
 
 
